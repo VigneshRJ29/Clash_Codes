@@ -1,0 +1,7 @@
+Solution:
+
+n = int(input())
+for i in range(n):
+    row = input()
+    m = row.replace('o','x')
+    print(m)
